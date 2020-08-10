@@ -1,3 +1,18 @@
+# Instagram-Clone
+
+Created an instagram clone with functionality like ->
+
+- Sign In/Sign Up
+- Upload Image
+- Comment
+
+  Using ->
+
+- ReactJS (For frontend)
+- Firebase (For backend)
+
+## For Setup
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
