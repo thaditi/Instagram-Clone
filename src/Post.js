@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Post.css";
-import avatar1 from "./static/images/avatar/1.jpg";
 import Avatar from "@material-ui/core/Avatar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import firebase from "firebase";
@@ -48,7 +47,7 @@ function Post({ postId, user, username, caption, imageUrl }) {
   return (
     <div className="post">
       <div className="post__header">
-        <Avatar className="post__avatar" alt="th_aditi" src={avatar1} />
+              <Avatar className="post__avatar" alt={username} src={username} />
         <h3>{username}</h3>
       </div>
 
